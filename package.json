@@ -1,23 +1,17 @@
 {
   "name": "micro-dom",
   "version": "0.0.17",
-  "description": "a tiny implementation of the dom in node built on top of dom-lite",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/hayes/micro-dom.git"
+    "test": "tape test.js && semistandard"
   },
   "author": "Michael Hayes",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hayes/micro-dom/issues"
-  },
-  "homepage": "https://github.com/hayes/micro-dom",
   "dependencies": {
-    "dom-lite": "^0.2.0",
+    "dom-lite": "scenevr/dom-lite",
     "htmlparser2": "^3.7.1"
+  },
+  "devDependencies": {
+    "tape": "^4.6.0"
   }
 }
